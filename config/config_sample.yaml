@@ -1,0 +1,140 @@
+ECG:
+  learning_rate: 0.003971709943520522
+  decay_rate: 0.04883689490804201
+  hidden_size: 32
+  signal_len: 16
+  cheb_order: 2
+  k: 2
+  s: 1.7819100178824934
+  batch_size: 128
+  long_pred: 0
+  
+
+Covid:
+  learning_rate: 0.003491879632024443
+  decay_rate: 0.04283477743214707
+  hidden_size: 128
+  signal_len: 16
+  cheb_order: 2
+  k: 4
+  s: 7.533034289466433
+  batch_size: 16
+  long_pred: 0
+  use_norm: False
+  
+Fred_MD:
+  learning_rate: 0.003491879632024443
+  decay_rate: 0.04283477743214707
+  hidden_size: 128
+  signal_len: 16
+  cheb_order: 2
+  k: 3
+  s: 7.533034289466433
+  batch_size: 16
+  long_pred: 0
+  use_norm: False
+
+Electricity:
+  learning_rate: 0.0021911971692190864
+  decay_rate: 0.028852240829232177
+  hidden_size: 16
+  signal_len: 16
+  cheb_order: 2
+  k: 2
+  s: 9.198551332710885
+  batch_size: 128
+  long_pred: 0
+
+Exchange:
+  learning_rate: 0.005
+  decay_rate: 0.028852240829232177
+  hidden_size: 16
+  signal_len: 16
+  cheb_order: 2
+  k: 2
+  s: 9.198551332710885
+  batch_size: 64
+  long_pred: 0
+  use_norm: False
+  
+ILI:
+  learning_rate: 0.005
+  decay_rate: 0.028852240829232177
+  hidden_size: 16
+  signal_len: 16
+  cheb_order: 2
+  k: 2
+  s: 9.198551332710885
+  batch_size: 64
+  long_pred: 0
+  use_norm: False
+  
+NN5:
+  learning_rate: 0.005
+  decay_rate: 0.028852240829232177
+  hidden_size: 16
+  signal_len: 16
+  cheb_order: 2
+  k: 2
+  s: 9.198551332710885
+  batch_size: 64
+  long_pred: 0
+
+NYSE:
+  learning_rate: 0.005
+  decay_rate: 0.028852240829232177
+  hidden_size: 16
+  signal_len: 16
+  cheb_order: 2
+  k: 2
+  s: 9.198551332710885
+  batch_size: 64
+  long_pred: 0
+  use_norm: False
+  
+NASDAQ:
+  learning_rate: 0.005
+  decay_rate: 0.028852240829232177
+  hidden_size: 16
+  signal_len: 16
+  cheb_order: 2
+  k: 2
+  s: 9.198551332710885
+  batch_size: 64
+  long_pred: 0
+  use_norm: False
+  
+
+Solar:
+  learning_rate: 0.002338300285464418
+  decay_rate: 0.04234248918128015
+  hidden_size: 16
+  signal_len: 16
+  cheb_order: 2
+  k: 2
+  s: 3.0089854026875726
+  batch_size: 128
+  long_pred: 0
+
+Traffic:
+  learning_rate: 0.0038122150596916616
+  decay_rate: 0.016224470023661754
+  hidden_size: 16
+  signal_len: 16
+  cheb_order: 3
+  k: 2
+  s: 6.872585135887683
+  batch_size: 64
+  long_pred: 0
+  
+Wiki500:
+  learning_rate: 0.0015717288412341536
+  decay_rate: 0.000947505411175977
+  hidden_size: 32
+  signal_len: 8
+  cheb_order: 3
+  k: 2
+  s: 2.6103172012180265
+  batch_size: 16
+  long_pred: 0
+  
